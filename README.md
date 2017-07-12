@@ -26,8 +26,8 @@ For JavaScript there are multiple conventions, we decided on the following:
 * Inline JavaScript should follow [AirBnB JavaScript Code Conventions for ES5](https://github.com/airbnb/javascript/tree/es5-deprecated/es5)
 
 Exceptions:
-* "func-names": ["error", "never"],
-* "no-use-before-define": ["error", { "functions": false }]
+* ["func-names"](http://eslint.org/docs/rules/func-names): ["error", "never"],
+* ["no-use-before-define"](http://eslint.org/docs/rules/no-use-before-define): ["error", { "functions": false }]
 
 There is a prepared [.eslintrc file](https://github.com/TheCoupCompany/laravel-skeleton/blob/master/.eslintrc) in the root folder of the project.
 
