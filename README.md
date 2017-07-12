@@ -1,4 +1,4 @@
-# Our Style Guide / Code Conventions
+# TheCoupCompany Style Guide / Code Conventions
 
 ## PHP
 We are following the common conventions:
