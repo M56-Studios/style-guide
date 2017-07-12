@@ -18,7 +18,7 @@ We are following this convention for HTML:
 * [Google Style Guide for HTML](https://google.github.io/styleguide/htmlcssguide.html#HTML)
 
 In depth information on valid HTML according to W3C:
-* [HTML 5.1W3C Recommendation](https://www.w3.org/TR/2016/REC-html51-20161101/)
+* [HTML 5.1 W3C Recommendation](https://www.w3.org/TR/2016/REC-html51-20161101/)
 
 Exceptions:
 * Indenting lines with 4 instead of 2 spaces: As PHP's PSR-2 standard enforces indenting with 4 spaces, we decided on applying that to HTML as well. 
