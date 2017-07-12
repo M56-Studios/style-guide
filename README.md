@@ -20,6 +20,8 @@ We are following this convention for HTML:
 Exceptions:
 * Indenting lines with 4 instead of 2 spaces: As PHP's PSR-2 standard enforces indenting with 4 spaces, we decided on applying that to HTML as well. 
 
+Please set your IDE to use/check these code conventions.
+
 ## JavaScript
 For JavaScript there are multiple conventions, we decided on the following:
 * [AirBnB JavaScript Code Conventions](https://github.com/airbnb/javascript)
