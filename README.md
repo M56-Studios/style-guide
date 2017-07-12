@@ -17,7 +17,7 @@ Please set your IDE to use/check these code conventions: [PHPStorm / WebStorm](h
 We are following this convention for HTML:
 * [Google Style Guide for HTML](https://google.github.io/styleguide/htmlcssguide.html#HTML)
 
-In depth information on valid HTML according to W3c:
+In depth information on valid HTML according to W3C:
 * [HTML 5.1W3C Recommendation](https://www.w3.org/TR/2016/REC-html51-20161101/)
 
 Exceptions:
