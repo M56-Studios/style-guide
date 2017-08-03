@@ -9,6 +9,8 @@ We are following the common conventions:
 Exceptions:
 * None
 
+Params, properties and vars should be in camelCase, unless their origin is database call / ORM object.
+
 We have no check for these in the built process (so far) but all developers are highly encouraged to follow those conventions to the best of their abilities.
 
 Please set your IDE to use/check these code conventions: [PHPStorm / WebStorm](http://laraveldaily.com/how-to-configure-phpstorm-for-psr-2/)
@@ -33,13 +35,21 @@ For JavaScript there are multiple conventions, we decided on the following:
 Exceptions:
 * ["func-names"](http://eslint.org/docs/rules/func-names): ["error", "never"],
 * ["no-use-before-define"](http://eslint.org/docs/rules/no-use-before-define): ["error", { "functions": false }]
+* ["no-underscore-dangle"](http://eslint.org/docs/rules/no-underscore-dangle): ["error", { "allowAfterThis": true }],
+* ["comma-dangle"](http://eslint.org/docs/rules/comma-dangle): ["error", {
+    "arrays": "only-multiline",
+    "objects": "only-multiline",
+    "imports": "only-multiline",
+    "exports": "only-multiline",
+    "functions": "only-multiline"
+  }]
 
 There is a prepared [.eslintrc file](https://github.com/TheCoupCompany/laravel-skeleton/blob/master/.eslintrc) in the root folder of the project.
 
 Please set your IDE to use/check these code conventions.
 
 ### Prettier 
-Prettier is an opinionated code formatter that helps us keeping a consistent code style in our company. We have a pre-commit hook set up (if you installed via vmconsole) that will ensure that all commited JS/JSX files are run through [prettier/prettier](https://github.com/prettier/prettier). The [pre-commit](https://github.com/TheCoupCompany/style-guide/blob/master/pre-commit) is also part of this repo.
+Prettier is an opinionated code formatter that helps us keeping a consistent code style in our company. We have a pre-commit hook set up (if you installed via vmconsole, if not please copy the file yourself to `.git/hooks/`) that will ensure that all commited JS/JSX files are run through [prettier/prettier](https://github.com/prettier/prettier). The [pre-commit](https://github.com/TheCoupCompany/style-guide/blob/master/pre-commit) is also part of this repo.
 
 ## CSS
 We are following BEM conventions for CSS. 
