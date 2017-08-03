@@ -36,9 +36,10 @@ Exceptions:
 
 There is a prepared [.eslintrc file](https://github.com/TheCoupCompany/laravel-skeleton/blob/master/.eslintrc) in the root folder of the project.
 
-We have no check for these in the built process (so far) but all developers are highly encouraged to follow those conventions to the best of their abilities.
-
 Please set your IDE to use/check these code conventions.
+
+### Prettier 
+Prettier is an opinionated code formatter that helps us keeping a consistent code style in our company. We have a pre-commit hook set up (if you installed via vmconsole) that will ensure that all commited JS/JSX files are run through [prettier/prettier](https://github.com/prettier/prettier). The [pre-commit](https://github.com/TheCoupCompany/style-guide/blob/master/pre-commit) is also part of this repo.
 
 ## CSS
 We are following BEM conventions for CSS. 
