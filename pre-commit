@@ -1,5 +1,5 @@
 #!/bin/sh
-jsfiles=$(git diff --cached --name-only --diff-filter=ACM | grep '\.jsx\?$' | tr '\n' ' ')
+jsfiles=$(git diff --cached --name-only --diff-filter=ACM resources | grep '\.jsx\?$' | tr '\n' ' ')
 [ -z "$jsfiles" ] && exit 0
 
 # Prettify all staged .js files
